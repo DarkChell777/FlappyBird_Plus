@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 471c935789e8f6c4086f668bb63b6045
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _LeftAnimation: {fileID: 7400000, guid: dbbf11f0ad8e44349bfa701a86109ba0, type: 2}
+  - _RightAnimation: {fileID: 7400000, guid: e6f8398c833bc064a915dddac1d45aa9, type: 2}
+  - _animatior: {instanceID: 0}
+  - _skinChanger: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

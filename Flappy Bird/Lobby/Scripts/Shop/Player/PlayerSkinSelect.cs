@@ -1,0 +1,30 @@
+using UnityEngine;
+
+public class PlayerSkinSelect : SkinSelector 
+{
+    [SerializeField] private PlayerSkinManager _manager;
+    [SerializeField] private PlayerSkinChanger _changer;
+
+    private int _currentSkinIndex;
+
+    private void Awake()
+    {
+        _selectButton.onClick.AddListener(SelectingSkin);
+    }
+
+    protected override void OnEnable() {_manager.SkinChanging += SetData;}
+
+    protected override void OnDisable() {_manager.SkinChanging -= SetData;}
+
+    public override void SetData(int index)
+    {
+        _currentSkinIndex = index;
+    }
+
+    public override void SelectingSkin()
+    {
+        _manager.SetSkin(_currentSkinIndex);
+        _manager.SaveData();
+        _manager.UpdateSkin();
+    }
+}

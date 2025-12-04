@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d526098a2615a4d46b6212ee251ac403, type: 3}
+  m_Name: Backgrounds
+  m_EditorClassIdentifier: 
+  _backgrounds:
+  - skin: 0
+    gameSprite: {fileID: 1581401220, guid: 1d009393797d94445a2e0d5ff06d4273, type: 3}
+    shopSprite: {fileID: 1065214709643656542, guid: 3263041e00605924cb3938c54c57e70b, type: 3}
+    ambiend: {fileID: 8300000, guid: 1f8cd3290f8a5a544bee5bbb94350741, type: 3}
+    price: 0
+    dontSale: 0
+    ground: {fileID: -2250093007947318478, guid: 87b5b9ddc7e4fed499e21481c772561b, type: 3}
+    isGroundAnimSpeed: 0
+    About: "\u0427\u043E\u0442\u043A\u0438\u0439 \u0444\u043E\u043D"
+  - skin: 1
+    gameSprite: {fileID: 656988019031298925, guid: 1d009393797d94445a2e0d5ff06d4273, type: 3}
+    shopSprite: {fileID: 8132030510759668984, guid: 3263041e00605924cb3938c54c57e70b, type: 3}
+    ambiend: {fileID: 8300000, guid: 9637b13336dd1f446ac9adfda570befb, type: 3}
+    price: 25
+    dontSale: 0
+    ground: {fileID: -2250093007947318478, guid: 87b5b9ddc7e4fed499e21481c772561b, type: 3}
+    isGroundAnimSpeed: 0
+    About: "\u0427\u0438\u043B\u043E\u0432\u0430\u044F \u043F\u043E\u043B\u044F\u043D\u043A\u0430"
+  - skin: 2
+    gameSprite: {fileID: 5652514795977546035, guid: 1d009393797d94445a2e0d5ff06d4273, type: 3}
+    shopSprite: {fileID: 5478700558403518787, guid: 3263041e00605924cb3938c54c57e70b, type: 3}
+    ambiend: {fileID: 8300000, guid: 7d750d137c943cc48802dc4aef33a6bf, type: 3}
+    price: 25
+    dontSale: 0
+    ground: {fileID: -372398187543980959, guid: 87b5b9ddc7e4fed499e21481c772561b, type: 3}
+    isGroundAnimSpeed: 0
+    About: "\u041F\u0440\u0435\u043A\u0440\u0430\u0441\u043D\u044B\u0439 \u0442\u0440\u043E\u043F\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+      \u043B\u0435\u0441"
+  - skin: 3
+    gameSprite: {fileID: -7810250789829366425, guid: 1d009393797d94445a2e0d5ff06d4273, type: 3}
+    shopSprite: {fileID: 3028227698939782457, guid: 3263041e00605924cb3938c54c57e70b, type: 3}
+    ambiend: {fileID: 8300000, guid: 8bca8c4a657f42b47a15aa34242927ad, type: 3}
+    price: 30
+    dontSale: 0
+    ground: {fileID: -2942244351632471185, guid: 87b5b9ddc7e4fed499e21481c772561b, type: 3}
+    isGroundAnimSpeed: 0
+    About: "\u041C\u0430\u0440\u0441? \u0418\u043B\u0438 \u044D\u0442\u043E \u0437\u0435\u043C\u043B\u044F
+      \u043F\u043E\u0441\u043B\u0435 \u0430\u043F\u043E\u043A\u0430\u043B\u0438\u043F\u0441\u0438\u0441\u0430?
+      \u041D\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043D\u043E..."
+  - skin: 4
+    gameSprite: {fileID: -8461514266414155272, guid: 1d009393797d94445a2e0d5ff06d4273, type: 3}
+    shopSprite: {fileID: -1833272565776689737, guid: 3263041e00605924cb3938c54c57e70b, type: 3}
+    ambiend: {fileID: 8300000, guid: 887325af7098930478c8cc5e15d17e07, type: 3}
+    price: 40
+    dontSale: 0
+    ground: {fileID: -591907740, guid: 87b5b9ddc7e4fed499e21481c772561b, type: 3}
+    isGroundAnimSpeed: 1
+    About: "\u041F\u043B\u0430\u043D\u0435\u0442\u0430 \u0438\u043D\u043E\u043F\u043B\u0430\u0442\u044F\u043D.
+      \u0414\u043E\u0440\u043E\u0433\u043E? \u041C\u043E\u0436\u0435\u0442 \u043F\u043E\u0442\u043E\u043C\u0443
+      \u0447\u0442\u043E \u043E\u043D\u0438 \u0446\u0438\u0433\u0430\u043D\u0435... "
