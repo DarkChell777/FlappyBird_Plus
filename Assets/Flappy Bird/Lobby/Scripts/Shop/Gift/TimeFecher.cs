@@ -5,7 +5,7 @@ using System;
 
 public class TimeFetcher : MonoBehaviour
 {
-    private string url = "https://api.timezonedb.com/v2.1/get-time-zone?key=UCC4M18GYCGL&format=json&by=zone&zone=Europe/Moscow";
+    private string url = ""; // TODO: Add url from file
     private int tryConnect;
 
     public bool errorGetTime { get; private set; }
